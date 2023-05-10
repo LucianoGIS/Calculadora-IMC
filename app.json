@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Calculadora IMC Miss Brown",
+    "slug": "Calculadora-imc-miss-brown",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFC300"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportTablet": true,
+      "bundleIdentifier": "br.com.pauloamaral.calculadoraimcmissbrown",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "adptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFC300"
+      },
+      "package": "br.com.pauloamaral.calculadoraimcmissbrown",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
